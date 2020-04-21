@@ -3,6 +3,12 @@ body{
     font-family: arial, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
 li{
     display: inline-block;
     list-style-type: none;
@@ -17,6 +23,11 @@ li{
 .text-align{
     font-family: arial, sans-serif;
     font-size: 13px;
+    color: black;
+}
+
+.text-align:hover{
+    text-decoration: underline;
 }
 
 
@@ -178,6 +189,20 @@ ul{
 
 span{
     padding-left: 24px;
+}
+
+#footer a{
+    text-decoration: none;
+    color:#5f6368;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+
+}
+
+#theme-link a{
+    color: #609;
 }
 
 
