@@ -51,12 +51,34 @@ li{
 
 
 input{
-    width: 80%;
+    width: 85%;
+    height: 20px;
     border-color: transparent;
     outline-color: transparent;
     font-size: 16px;
-    
+    display:inline-block;
+    position: relative;
+    bottom: 11px;
 }
+
+
+img[src="search.svg"]{
+    position:relative;
+    bottom:5px;
+}
+
+img[src="mic.png"]{
+    position:relative;
+    bottom:2px;
+    left: 6px;
+
+}
+
+img[src="keyboard.png"]{
+    position:relative;
+    bottom:9px;
+}
+
 
 #buttons{
     display: block;
@@ -76,6 +98,71 @@ input{
     min-width: 54px;
     padding: 0px 16px;
 }
+
+.search-buttons:hover{
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+p{
+    font-size: 13px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#footer{
+    color:#5f6368;
+    font-size: 14px;
+}
+
+
+
+#options{ 
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+
+
+}
+
+.footer-bar{
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+
+;
+}
+
+ul#right{
+    display:inline;
+    float:right;
+    margin: 0;
+    
+    
+}
+
+ul#left{
+    display:inline;
+    float:left;
+    position: relative;
+    margin: 0;
+
+}
+ul{
+    display: inline;
+}
+
+
+
+
 
 
 
