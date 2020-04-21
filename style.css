@@ -125,15 +125,17 @@ a{
 #footer{
     color:#5f6368;
     font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
 }
 
 
 
 #options{ 
     display: block;
-    position: fixed;
-    bottom: 0;
-    width:100%;
+    position:relative;
+
 
 
 }
@@ -141,29 +143,44 @@ a{
 .footer-bar{
     border-top: 1px solid #e4e4e4;
     line-height: 40px;
+    background-color: #f2f2f2;
+
 }
 
-;
-}
+
 
 ul#right{
     display:inline;
-    float:right;
     margin: 0;
-    
     
 }
 
 ul#left{
     display:inline;
-    float:left;
-    position: relative;
     margin: 0;
 
 }
 ul{
     display: inline;
+    padding:0;
 }
+
+#right-it{
+    display: inline;
+    position: absolute;
+    right:0px;
+    padding-right: 35px;
+}
+#left-it{
+    padding-left: 10px;
+    display:inline;
+}
+
+span{
+    padding-left: 24px;
+}
+
+
 
 
 
